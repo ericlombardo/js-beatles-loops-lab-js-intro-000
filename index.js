@@ -10,3 +10,15 @@ function theBeatlesPlay(musicianArray, instrumentArray) {
   // return the final string of what musicians play
   return musiciansPlay;
 }
+// create johnLennonFacts function that takes an array of facts
+function johnLennonFacts(facts) {
+  // create while loop that adds !!! to end of every fact
+  let i = 0;
+  while (i < facts.length) {
+    facts[i] = `${facts}!!!`;
+    i += 1;
+  } 
+  return facts; 
+}
+
+// return array of strings with added exclamation points
