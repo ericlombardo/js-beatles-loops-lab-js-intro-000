@@ -21,3 +21,17 @@ function johnLennonFacts(facts) {
   // return array of strings with added exclamation points
   return facts;
 }
+// create a function iLoveTheBeatles which accepts a number
+function iLoveTheBeatles(num) {
+  // create a var that stores empty array
+  var beatleLoveStrings = [];
+  // do-while loop 
+  do {
+    // add `I love the Beatles!` to empty array
+    beatleLoveStrings.push(`I love the Beatles!`);
+    num += 1;
+  } while (num < 15);
+  return beatleLoveStrings;     
+}
+
+
