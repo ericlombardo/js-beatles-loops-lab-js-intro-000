@@ -21,5 +21,3 @@ function johnLennonFacts(facts) {
   // return array of strings with added exclamation points
   return facts;
 }
-
-
