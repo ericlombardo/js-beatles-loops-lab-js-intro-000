@@ -18,7 +18,8 @@ function johnLennonFacts(facts) {
     facts[i] = `${facts[i]}!!!`;
     i += 1;
   }
+  // return array of strings with added exclamation points
   return facts;
 }
 
-// return array of strings with added exclamation points
+
