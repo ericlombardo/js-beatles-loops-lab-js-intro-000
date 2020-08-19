@@ -25,7 +25,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   // create a var that stores empty array
   var beatleLoveStrings = [];
-  // do-while loop 
+  // do-while loop
   do {
     // add `I love the Beatles!` to empty array
     beatleLoveStrings.push(`I love the Beatles!`);
@@ -33,5 +33,3 @@ function iLoveTheBeatles(num) {
   } while (num < 15);
   return beatleLoveStrings;     
 }
-
-
