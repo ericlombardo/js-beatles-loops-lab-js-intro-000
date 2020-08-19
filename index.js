@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
   // create while loop that adds !!! to end of every fact
   let i = 0;
   while (i < facts.length) {
-    facts[i] = `${facts}!!!`;
+    facts[i] = `${facts[i]}!!!`;
     i += 1;
   }
   return facts; 
